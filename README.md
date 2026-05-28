@@ -1,7 +1,7 @@
 # Awesome AI Coding Agents [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 <div align="center">
-  <img src="media/banner.svg" alt="Awesome AI Coding Agents" width="800">
+  <img src="https://raw.githubusercontent.com/SahitiMulagada/awesome-ai-coding-agents/refs/heads/main/media/banner.svg" alt="Awesome AI Coding Agents" width="800">
   <br>
   <p>
     <strong>A curated list of AI-powered coding agents and tools that help developers write, debug, and ship code faster.</strong>
