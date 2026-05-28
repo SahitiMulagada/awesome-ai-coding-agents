@@ -105,15 +105,21 @@ Frameworks, plugins, custom commands, and tools that extend Claude Code's capabi
 
 - [Awesome Claude Code](https://github.com/jqueryscript/awesome-claude-code) - Curated list of tools, IDE integrations, frameworks, and resources for Claude Code.
 - [Awesome Claude Code Plugins](https://github.com/ccplugins/awesome-claude-code-plugins) - Curated list of slash commands, subagents, MCP servers, and hooks for Claude Code.
+- [Awesome Claude Code Toolkit](https://github.com/rohitg00/awesome-claude-code-toolkit) - Comprehensive toolkit collection with 135 agents, 35 skills, 42 commands, and 176+ plugins.
 - [Awesome Claude Plugins](https://github.com/ComposioHQ/awesome-claude-plugins) - Curated list of plugins that extend Claude Code with custom commands, agents, and hooks.
-- [BMAD-AT-CLAUDE](https://github.com/24601/BMAD-AT-CLAUDE) - Full-stack AI agent framework for Claude Code with structured methodology and agent personas.
+- [BMAD-AT-CLAUDE](https://github.com/24601/BMAD-AT-CLAUDE) - Full-stack AI agent framework implementing Breakthrough Method for Agile AI-Driven Development.
 - [Claude Code Guide](https://github.com/Cranot/claude-code-guide) - Comprehensive auto-updated guide documenting Claude Code CLI features, tools, and workflows.
+- [Claude Code MCP](https://github.com/steipete/claude-code-mcp) - MCP server that runs Claude Code as a sub-agent enabling an agent-in-your-agent pattern.
+- [Claude Code Orchestrator Kit](https://github.com/maslennikov-ig/claude-code-orchestrator-kit) - Professional orchestration system with 39 specialized sub-agents and 25 slash commands.
 - [Claude Code System Prompts](https://github.com/Piebald-AI/claude-code-system-prompts) - Documented collection of all Claude Code system prompt parts, tool descriptions, and sub-agent prompts.
+- [Claude Code Workflow](https://github.com/catlog22/Claude-Code-Workflow) - JSON-driven multi-agent cadence-team framework with multi-CLI orchestration and terminal dashboard.
 - [Claude Context](https://github.com/zilliztech/claude-context) - Code search MCP server that makes your entire codebase available as context for Claude Code.
 - [Claude MPM](https://github.com/bobmatnyc/claude-mpm) - Multi-agent project manager framework with 47+ specialized agents and session management.
+- [claude-skills](https://github.com/alirezarezvani/claude-skills) - Library of 338 production-ready skills across 16 domains for Claude Code and 12 other coding agents.
 - [Context Mode](https://github.com/mksglu/context-mode) - Context window optimization plugin achieving 98% reduction in context consumption across 15 platforms.
 - [ContextGraph](https://github.com/contextgraph/claude-code-plugin) - AI-forward persistent task management plugin for Claude Code.
-- [Superpowers](https://github.com/obra/superpowers) - Collection of custom slash commands and extensions that enhance Claude Code workflows.
+- [Ruflo](https://github.com/ruvnet/ruflo) - Multi-agent AI orchestration platform deploying 100+ specialized agents in coordinated swarms.
+- [Superpowers](https://github.com/obra/superpowers) - Agentic skills framework structuring the full SDLC through composable, automatically-triggered skills.
 - [Taskmaster](https://github.com/eyaltoledano/claude-task-master) - AI-powered task management system exposing 36 MCP tools for structuring development workflows.
 
 ## Comparison
