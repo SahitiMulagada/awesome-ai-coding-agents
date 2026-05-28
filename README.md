@@ -17,7 +17,8 @@
 
 - [CLI Agents](#cli-agents)
 - [IDE Extensions](#ide-extensions)
-- [AI-Native IDEs](#ai-native-ides)
+- [IDEs & Code Editors](#ides--code-editors)
+- [IDE Comparison](#ide-comparison)
 - [Enterprise Platforms](#enterprise-platforms)
 - [Multi-Agent Orchestrators](#multi-agent-orchestrators)
 - [General-Purpose AI Agents](#general-purpose-ai-agents)
@@ -52,21 +53,56 @@ Terminal-based coding agents that work directly from your command line.
 
 AI coding agents that plug into your existing code editor.
 
+- [Cline](https://cline.bot/) - Open-source autonomous AI coding agent with Plan/Act workflow and browser automation.
 - [Continue](https://continue.dev/) - Open-source AI code assistant for VS Code and JetBrains with customizable model support and MCP integration.
 - [Kilo Code](https://kilo.ai/) - Open-source AI coding agent for VS Code and JetBrains with 500+ model support and inline autocomplete.
 - [Pochi](https://docs.getpochi.com/) - AI-powered VS Code coding agent by TabbyML with deep GitHub integration and cloud collaboration.
 - [Roo Code](https://github.com/RooCodeInc/Roo-Code) - Open-source VS Code extension providing customizable AI modes for architecture, coding, and debugging.
+- [Sourcegraph Cody](https://sourcegraph.com/cody) - AI assistant with multi-repository code graph intelligence.
+- [Supermaven](https://supermaven.com/) - Ultra-fast AI completions with 1M token context window and sub-250ms response times.
 - [Zencoder](https://zencoder.ai/) - Universal AI coding agent platform unifying multiple AI tools inside VS Code and JetBrains.
 
-## AI-Native IDEs
+## IDEs & Code Editors
 
-Full development environments built from the ground up around AI capabilities.
+Full development environments and code editors with AI capabilities.
 
+- [Cursor](https://cursor.com/) - AI-native code editor with Composer for multi-file agentic editing and auto model selection.
+- [Emacs](https://www.gnu.org/software/emacs/) - Extensible editor with AI ecosystem including GPTel, Ellama, and copilot.el.
+- [JetBrains Air](https://www.jetbrains.com/air/) - Agent-first IDE running multiple AI agents concurrently in isolated workspaces.
+- [JetBrains IDEs](https://www.jetbrains.com/ai/) - Professional IDEs with built-in AI Assistant and Junie agent.
 - [Kiro](https://kiro.dev/) - AWS's spec-driven agentic IDE built on VS Code with automated user stories and task generation.
+- [Neovim](https://neovim.io/) - Terminal editor with AI plugins including avante.nvim and CodeCompanion.nvim.
+- [PearAI](https://trypear.ai/) - Open-source AI code editor with unified multi-model subscription routing.
 - [Qoder](https://qoder.com/) - Alibaba's agentic IDE with Quest Mode for autonomous task delegation and multi-interface support.
+- [Replit](https://replit.com/) - Cloud IDE with AI Agent v3 for full-stack app generation from natural language.
 - [Trae](https://trae.ai/) - ByteDance's AI-native IDE with Builder mode for end-to-end feature implementation and multimodal input.
 - [Trae CN](https://www.trae.com.cn/) - Chinese edition of Trae IDE powered by Doubao and DeepSeek models with SOLO mode for autonomous development.
+- [Visual Studio](https://visualstudio.microsoft.com/) - Microsoft's IDE with deeply integrated Copilot for .NET and C++ development.
+- [VS Code](https://code.visualstudio.com/) - Dominant code editor with GitHub Copilot agent mode and MCP support.
 - [Windsurf](https://windsurf.com/) - AI-native IDE with Cascade for deep codebase understanding and fluid copilot-to-agent transitions.
+- [Xcode](https://developer.apple.com/xcode/) - Apple's IDE with built-in AI coding intelligence and agentic coding support.
+- [Zed](https://zed.dev/) - High-performance open-source editor built in Rust with native AI and Agent Client Protocol.
+
+## IDE Comparison
+
+| Tool           | Type               | Pricing  | Open Source | MCP         | Agent Mode  | Key Strength                        |
+| -------------- | ------------------ | -------- | ----------- | ----------- | ----------- | ----------------------------------- |
+| Cursor         | AI-native editor   | Freemium | No          | Yes         | Yes         | Multi-file agentic Composer         |
+| Emacs          | Traditional editor | Free     | Yes         | Via plugins | Via plugins | Extensible AI plugin ecosystem      |
+| JetBrains Air  | AI-native IDE      | Freemium | No          | Yes         | Yes         | Multi-agent concurrency             |
+| JetBrains IDEs | Professional IDE   | Freemium | Partial     | Yes         | Yes         | Built-in AI Assistant and Junie     |
+| Kiro           | AI-native IDE      | Freemium | No          | Yes         | Yes         | Spec-driven development with hooks  |
+| Neovim         | Terminal editor    | Free     | Yes         | Via plugins | Via plugins | Lightweight terminal-native AI      |
+| PearAI         | AI-native editor   | Freemium | Yes         | Yes         | Yes         | Multi-model subscription routing    |
+| Qoder          | AI-native IDE      | Freemium | No          | Yes         | Yes         | Async Quest Mode                    |
+| Replit         | Cloud IDE          | Freemium | No          | Yes         | Yes         | Full-stack app generation from NL   |
+| Trae           | AI-native IDE      | Freemium | No          | Yes         | Yes         | Builder mode end-to-end             |
+| Trae CN        | AI-native IDE      | Free     | No          | Yes         | Yes         | SOLO mode for Chinese developers    |
+| Visual Studio  | Professional IDE   | Freemium | No          | Yes         | Yes         | Deep .NET and C++ integration       |
+| VS Code        | Code editor        | Free     | Yes         | Yes         | Yes         | Largest extension ecosystem         |
+| Windsurf       | AI-native IDE      | Freemium | No          | Yes         | Yes         | Cascade deep codebase understanding |
+| Xcode          | Native IDE         | Free     | No          | No          | Yes         | Apple platform integration          |
+| Zed            | Code editor        | Free     | Yes         | Yes         | Yes         | Rust-native performance             |
 
 ## Enterprise Platforms
 
@@ -124,46 +160,60 @@ Frameworks, plugins, custom commands, and tools that extend Claude Code's capabi
 
 ## Comparison
 
-| Tool           | Type         | Pricing     | Open Source | MCP Support | LLM Support                    | Key Differentiator                     |
-| -------------- | ------------ | ----------- | ----------- | ----------- | ------------------------------ | -------------------------------------- |
-| AdaL           | CLI          | Free (BYOK) | Yes         | Yes         | Claude, GPT, Gemini, GLM       | Self-evolving agent                    |
-| AiderDesk      | CLI          | Free (BYOK) | Yes         | Yes         | 25+ providers                  | Git worktree isolation                 |
-| Augment        | Enterprise   | Paid        | No          | Yes         | Claude, GPT, Gemini            | Multi-model Prism routing              |
-| Claude Code    | CLI          | Freemium    | Yes         | Yes         | Claude                         | Deep codebase reasoning                |
-| CodeArts Agent | Enterprise   | Freemium    | No          | Yes         | Zhipu, DeepSeek, Pangu         | Huawei Cloud and HarmonyOS integration |
-| CodeBuddy      | Enterprise   | Freemium    | No          | Yes         | Hunyuan, DeepSeek              | Tencent Cloud ecosystem                |
-| CodeMaker AI   | Tooling      | Paid        | No          | No          | Proprietary                    | Automated documentation                |
-| Continue       | Extension    | Free (BYOK) | Yes         | Yes         | Any (configurable)             | Customizable open-source assistant     |
-| Cortex Code    | Enterprise   | Paid        | No          | Yes         | Snowflake Cortex AI            | Native data engineering context        |
-| Crush          | CLI          | Free (BYOK) | Yes         | Yes         | Multi-model                    | Charm ecosystem and LSP integration    |
-| Devin          | CLI          | Freemium    | No          | No          | Claude, GPT-5, SWE-1           | Local-to-cloud handoff                 |
-| Droid          | CLI          | Freemium    | No          | No          | Anthropic, OpenAI              | Number one on Terminal-Bench           |
-| ForgeCode      | CLI          | Free (BYOK) | Yes         | Yes         | 300+ models                    | Custom agent definitions               |
-| Goose          | CLI          | Free (BYOK) | Yes         | Yes         | 25+ providers                  | 70+ MCP extensions                     |
-| Hermes Agent   | Agent        | Free (BYOK) | Yes         | Yes         | 200+ via OpenRouter            | Self-improving with skill learning     |
-| IBM Bob        | Enterprise   | Paid        | No          | No          | Claude, Mistral, Granite       | Full SDLC with role-based agents       |
-| iFlow CLI      | CLI          | Free        | Yes         | Yes         | Kimi K2, Qwen3, DeepSeek       | Free Chinese AI model access           |
-| Junie          | CLI          | Freemium    | Yes         | Yes         | OpenAI, Anthropic, Google, xAI | JetBrains IDE integration              |
-| Kilo Code      | Extension    | Free (BYOK) | Yes         | Yes         | 500+ models                    | Built-in MCP marketplace               |
-| Kiro           | IDE          | Freemium    | No          | Yes         | Claude, Qwen3, DeepSeek        | Spec-driven development with hooks     |
-| Kode           | CLI          | Free (BYOK) | Yes         | Yes         | Multi-model                    | Expert model consultation via @ask     |
-| MCPJam         | Tooling      | Free        | Yes         | Yes         | Any                            | MCP server testing and evals           |
-| Mistral Vibe   | CLI          | Free (BYOK) | Yes         | Yes         | Devstral                       | Mistral's official coding agent        |
-| Mux            | Orchestrator | Free        | Yes         | No          | Claude, GPT-5, Grok            | Isolated parallel workspaces           |
-| Neovate        | CLI          | Free (BYOK) | Yes         | Yes         | 400+ models                    | Multimodal image input                 |
-| OpenClaw       | Agent        | Free (BYOK) | Yes         | Yes         | 50+ integrations               | Multi-platform messaging               |
-| OpenHands      | Agent        | Free (BYOK) | Yes         | No          | Claude, Gemini, GPT, Devstral  | Full autonomous software engineer      |
-| Pi             | CLI          | Free (BYOK) | Yes         | Via adapter | 20+ providers                  | Self-extensible minimal harness        |
-| Pochi          | Extension    | Freemium    | Yes         | Yes         | Custom + cloud models          | TabbyML with GitHub integration        |
-| Qoder          | IDE          | Freemium    | No          | Yes         | Qwen, GPT-4o, Claude           | Async Quest Mode                       |
-| Qwen Code      | CLI          | Free (BYOK) | Yes         | No          | Qwen3-Coder (480B)             | Alibaba's open-source models           |
-| Roo Code       | Extension    | Free (BYOK) | Yes         | Yes         | Multi-model                    | Customizable AI modes                  |
-| Rovo Dev       | CLI          | Paid        | No          | Yes         | Proprietary                    | Jira and Bitbucket integration         |
-| Tabnine        | CLI          | Paid        | No          | Yes         | GPT-4o, Claude, Llama, Mistral | Enterprise privacy with local models   |
-| Trae           | IDE          | Freemium    | No          | Yes         | Claude, GPT, DeepSeek          | ByteDance AI-native IDE                |
-| Trae CN        | IDE          | Free        | No          | Yes         | Doubao, DeepSeek               | SOLO mode for Chinese developers       |
-| Windsurf       | IDE          | Freemium    | No          | Yes         | Claude, GPT, Codeium           | Cascade deep codebase understanding    |
-| Zencoder       | Extension    | Freemium    | No          | Yes         | Multi-model + BYOK             | Unifies Codex, Claude Code, Gemini CLI |
+| Tool             | Type         | Pricing     | Open Source | MCP Support | LLM Support                    | Key Differentiator                     |
+| ---------------- | ------------ | ----------- | ----------- | ----------- | ------------------------------ | -------------------------------------- |
+| AdaL             | CLI          | Free (BYOK) | Yes         | Yes         | Claude, GPT, Gemini, GLM       | Self-evolving agent                    |
+| AiderDesk        | CLI          | Free (BYOK) | Yes         | Yes         | 25+ providers                  | Git worktree isolation                 |
+| Augment          | Enterprise   | Paid        | No          | Yes         | Claude, GPT, Gemini            | Multi-model Prism routing              |
+| Claude Code      | CLI          | Freemium    | Yes         | Yes         | Claude                         | Deep codebase reasoning                |
+| Cline            | Extension    | Free (BYOK) | Yes         | Yes         | Multi-model                    | Plan/Act workflow with browser         |
+| CodeArts Agent   | Enterprise   | Freemium    | No          | Yes         | Zhipu, DeepSeek, Pangu         | Huawei Cloud and HarmonyOS integration |
+| CodeBuddy        | Enterprise   | Freemium    | No          | Yes         | Hunyuan, DeepSeek              | Tencent Cloud ecosystem                |
+| CodeMaker AI     | Tooling      | Paid        | No          | No          | Proprietary                    | Automated documentation                |
+| Continue         | Extension    | Free (BYOK) | Yes         | Yes         | Any (configurable)             | Customizable open-source assistant     |
+| Cortex Code      | Enterprise   | Paid        | No          | Yes         | Snowflake Cortex AI            | Native data engineering context        |
+| Crush            | CLI          | Free (BYOK) | Yes         | Yes         | Multi-model                    | Charm ecosystem and LSP integration    |
+| Cursor           | IDE          | Freemium    | No          | Yes         | Claude, GPT, Custom            | Multi-file agentic Composer            |
+| Devin            | CLI          | Freemium    | No          | No          | Claude, GPT-5, SWE-1           | Local-to-cloud handoff                 |
+| Droid            | CLI          | Freemium    | No          | No          | Anthropic, OpenAI              | Number one on Terminal-Bench           |
+| Emacs            | IDE          | Free        | Yes         | Via plugins | N/A (plugin-based)             | Extensible AI plugin ecosystem         |
+| ForgeCode        | CLI          | Free (BYOK) | Yes         | Yes         | 300+ models                    | Custom agent definitions               |
+| Goose            | CLI          | Free (BYOK) | Yes         | Yes         | 25+ providers                  | 70+ MCP extensions                     |
+| Hermes Agent     | Agent        | Free (BYOK) | Yes         | Yes         | 200+ via OpenRouter            | Self-improving with skill learning     |
+| IBM Bob          | Enterprise   | Paid        | No          | No          | Claude, Mistral, Granite       | Full SDLC with role-based agents       |
+| iFlow CLI        | CLI          | Free        | Yes         | Yes         | Kimi K2, Qwen3, DeepSeek       | Free Chinese AI model access           |
+| JetBrains Air    | IDE          | Freemium    | No          | Yes         | Multi-model                    | Multi-agent isolated workspaces        |
+| JetBrains IDEs   | IDE          | Freemium    | Partial     | Yes         | OpenAI, Anthropic, Google      | Built-in AI Assistant and Junie        |
+| Junie            | CLI          | Freemium    | Yes         | Yes         | OpenAI, Anthropic, Google, xAI | JetBrains IDE integration              |
+| Kilo Code        | Extension    | Free (BYOK) | Yes         | Yes         | 500+ models                    | Built-in MCP marketplace               |
+| Kiro             | IDE          | Freemium    | No          | Yes         | Claude, Qwen3, DeepSeek        | Spec-driven development with hooks     |
+| Kode             | CLI          | Free (BYOK) | Yes         | Yes         | Multi-model                    | Expert model consultation via @ask     |
+| MCPJam           | Tooling      | Free        | Yes         | Yes         | Any                            | MCP server testing and evals           |
+| Mistral Vibe     | CLI          | Free (BYOK) | Yes         | Yes         | Devstral                       | Mistral's official coding agent        |
+| Mux              | Orchestrator | Free        | Yes         | No          | Claude, GPT-5, Grok            | Isolated parallel workspaces           |
+| Neovate          | CLI          | Free (BYOK) | Yes         | Yes         | 400+ models                    | Multimodal image input                 |
+| Neovim           | IDE          | Free        | Yes         | Via plugins | N/A (plugin-based)             | Terminal-native AI plugins             |
+| OpenClaw         | Agent        | Free (BYOK) | Yes         | Yes         | 50+ integrations               | Multi-platform messaging               |
+| OpenHands        | Agent        | Free (BYOK) | Yes         | No          | Claude, Gemini, GPT, Devstral  | Full autonomous software engineer      |
+| PearAI           | IDE          | Freemium    | Yes         | Yes         | Multi-model (routed)           | Multi-model subscription routing       |
+| Pi               | CLI          | Free (BYOK) | Yes         | Via adapter | 20+ providers                  | Self-extensible minimal harness        |
+| Pochi            | Extension    | Freemium    | Yes         | Yes         | Custom + cloud models          | TabbyML with GitHub integration        |
+| Qoder            | IDE          | Freemium    | No          | Yes         | Qwen, GPT-4o, Claude           | Async Quest Mode                       |
+| Qwen Code        | CLI          | Free (BYOK) | Yes         | No          | Qwen3-Coder (480B)             | Alibaba's open-source models           |
+| Replit           | IDE          | Freemium    | No          | Yes         | Proprietary                    | Full-stack app generation from NL      |
+| Roo Code         | Extension    | Free (BYOK) | Yes         | Yes         | Multi-model                    | Customizable AI modes                  |
+| Rovo Dev         | CLI          | Paid        | No          | Yes         | Proprietary                    | Jira and Bitbucket integration         |
+| Sourcegraph Cody | Extension    | Freemium    | Partial     | Yes         | Claude, GPT, Gemini            | Multi-repo code graph intelligence     |
+| Supermaven       | Extension    | Freemium    | No          | No          | Proprietary                    | 1M token context sub-250ms speed       |
+| Tabnine          | CLI          | Paid        | No          | Yes         | GPT-4o, Claude, Llama, Mistral | Enterprise privacy with local models   |
+| Trae             | IDE          | Freemium    | No          | Yes         | Claude, GPT, DeepSeek          | ByteDance AI-native IDE                |
+| Trae CN          | IDE          | Free        | No          | Yes         | Doubao, DeepSeek               | SOLO mode for Chinese developers       |
+| Visual Studio    | IDE          | Freemium    | No          | Yes         | Copilot (GPT, Claude)          | Deep .NET and C++ integration          |
+| VS Code          | IDE          | Free        | Yes         | Yes         | Copilot (multi-model)          | Largest extension ecosystem            |
+| Windsurf         | IDE          | Freemium    | No          | Yes         | Claude, GPT, Codeium           | Cascade deep codebase understanding    |
+| Xcode            | IDE          | Free        | No          | No          | Apple Intelligence             | Apple platform integration             |
+| Zed              | IDE          | Free        | Yes         | Yes         | Claude, GPT, Gemini, Ollama    | Rust-native performance                |
+| Zencoder         | Extension    | Freemium    | No          | Yes         | Multi-model + BYOK             | Unifies Codex, Claude Code, Gemini CLI |
 
 ## Resources
 
@@ -185,6 +235,4 @@ Frameworks, plugins, custom commands, and tools that extend Claude Code's capabi
 
 ## Contributing
 
-[Contributions welcome!](contributing.md) Read the contribution guidelines first.
-
-Want to add a tool, fix a link, or improve a description? PRs are open to everyone. See the [contribution guide](contributing.md) to get started.
+[Contributions welcome!](contributing.md) Read the contribution guidelines first. Want to add a tool, fix a link, or improve a description? PRs are open to everyone.
