@@ -118,46 +118,46 @@ Frameworks, plugins, custom commands, and tools that extend Claude Code's capabi
 
 ## Comparison
 
-| Tool                        | Type         | Pricing     | Open Source | MCP Support | LLM Support                     | Key Differentiator                         |
-| --------------------------- | ------------ | ----------- | ----------- | ----------- | ------------------------------- | ------------------------------------------ |
-| AdaL                        | CLI          | Free (BYOK) | Yes         | Yes         | Claude, GPT, Gemini, GLM        | Self-evolving agent                        |
-| AiderDesk                   | CLI          | Free (BYOK) | Yes         | Yes         | 25+ providers                   | Git worktree isolation                     |
-| Augment                     | Enterprise   | Paid        | No          | Yes         | Claude, GPT, Gemini              | Multi-model Prism routing                  |
-| Claude Code                 | CLI          | Freemium    | Yes         | Yes         | Claude                          | Deep codebase reasoning                    |
-| CodeArts Agent              | Enterprise   | Freemium    | No          | Yes         | Zhipu, DeepSeek, Pangu          | Huawei Cloud and HarmonyOS integration     |
-| CodeBuddy                   | Enterprise   | Freemium    | No          | Yes         | Hunyuan, DeepSeek               | Tencent Cloud ecosystem                    |
-| CodeMaker AI                | Tooling      | Paid        | No          | No          | Proprietary                     | Automated documentation                    |
-| Continue                    | Extension    | Free (BYOK) | Yes         | Yes         | Any (configurable)              | Customizable open-source assistant         |
-| Cortex Code                 | Enterprise   | Paid        | No          | Yes         | Snowflake Cortex AI             | Native data engineering context            |
-| Crush                       | CLI          | Free (BYOK) | Yes         | Yes         | Multi-model                     | Charm ecosystem and LSP integration        |
-| Devin                       | CLI          | Freemium    | No          | No          | Claude, GPT-5, SWE-1            | Local-to-cloud handoff                     |
-| Droid                       | CLI          | Freemium    | No          | No          | Anthropic, OpenAI               | Number one on Terminal-Bench               |
-| ForgeCode                   | CLI          | Free (BYOK) | Yes         | Yes         | 300+ models                     | Custom agent definitions                   |
-| Goose                       | CLI          | Free (BYOK) | Yes         | Yes         | 25+ providers                   | 70+ MCP extensions                         |
-| Hermes Agent                | Agent        | Free (BYOK) | Yes         | Yes         | 200+ via OpenRouter              | Self-improving with skill learning         |
-| IBM Bob                     | Enterprise   | Paid        | No          | No          | Claude, Mistral, Granite        | Full SDLC with role-based agents           |
-| iFlow CLI                   | CLI          | Free        | Yes         | Yes         | Kimi K2, Qwen3, DeepSeek        | Free Chinese AI model access               |
-| Junie                       | CLI          | Freemium    | Yes         | Yes         | OpenAI, Anthropic, Google, xAI  | JetBrains IDE integration                  |
-| Kilo Code                   | Extension    | Free (BYOK) | Yes         | Yes         | 500+ models                     | Built-in MCP marketplace                   |
-| Kiro                        | IDE          | Freemium    | No          | Yes         | Claude, Qwen3, DeepSeek         | Spec-driven development with hooks         |
-| Kode                        | CLI          | Free (BYOK) | Yes         | Yes         | Multi-model                     | Expert model consultation via @ask         |
-| MCPJam                      | Tooling      | Free        | Yes         | Yes         | Any                             | MCP server testing and evals               |
-| Mistral Vibe                | CLI          | Free (BYOK) | Yes         | Yes         | Devstral                        | Mistral's official coding agent            |
-| Mux                         | Orchestrator | Free        | Yes         | No          | Claude, GPT-5, Grok             | Isolated parallel workspaces               |
-| Neovate                     | CLI          | Free (BYOK) | Yes         | Yes         | 400+ models                     | Multimodal image input                     |
-| OpenClaw                    | Agent        | Free (BYOK) | Yes         | Yes         | 50+ integrations                | Multi-platform messaging                   |
-| OpenHands                   | Agent        | Free (BYOK) | Yes         | No          | Claude, Gemini, GPT, Devstral   | Full autonomous software engineer          |
-| Pi                          | CLI          | Free (BYOK) | Yes         | Via adapter | 20+ providers                   | Self-extensible minimal harness            |
-| Pochi                       | Extension    | Freemium    | Yes         | Yes         | Custom + cloud models           | TabbyML with GitHub integration            |
-| Qoder                       | IDE          | Freemium    | No          | Yes         | Qwen, GPT-4o, Claude            | Async Quest Mode                           |
-| Qwen Code                   | CLI          | Free (BYOK) | Yes         | No          | Qwen3-Coder (480B)              | Alibaba's open-source models               |
-| Roo Code                    | Extension    | Free (BYOK) | Yes         | Yes         | Multi-model                     | Customizable AI modes                      |
-| Rovo Dev                    | CLI          | Paid        | No          | Yes         | Proprietary                     | Jira and Bitbucket integration             |
-| Tabnine                     | CLI          | Paid        | No          | Yes         | GPT-4o, Claude, Llama, Mistral  | Enterprise privacy with local models       |
-| Trae                        | IDE          | Freemium    | No          | Yes         | Claude, GPT, DeepSeek           | ByteDance AI-native IDE                    |
-| Trae CN                     | IDE          | Free        | No          | Yes         | Doubao, DeepSeek                | SOLO mode for Chinese developers           |
-| Windsurf                    | IDE          | Freemium    | No          | Yes         | Claude, GPT, Codeium            | Cascade deep codebase understanding        |
-| Zencoder                    | Extension    | Freemium    | No          | Yes         | Multi-model + BYOK              | Unifies Codex, Claude Code, Gemini CLI     |
+| Tool           | Type         | Pricing     | Open Source | MCP Support | LLM Support                    | Key Differentiator                     |
+| -------------- | ------------ | ----------- | ----------- | ----------- | ------------------------------ | -------------------------------------- |
+| AdaL           | CLI          | Free (BYOK) | Yes         | Yes         | Claude, GPT, Gemini, GLM       | Self-evolving agent                    |
+| AiderDesk      | CLI          | Free (BYOK) | Yes         | Yes         | 25+ providers                  | Git worktree isolation                 |
+| Augment        | Enterprise   | Paid        | No          | Yes         | Claude, GPT, Gemini            | Multi-model Prism routing              |
+| Claude Code    | CLI          | Freemium    | Yes         | Yes         | Claude                         | Deep codebase reasoning                |
+| CodeArts Agent | Enterprise   | Freemium    | No          | Yes         | Zhipu, DeepSeek, Pangu         | Huawei Cloud and HarmonyOS integration |
+| CodeBuddy      | Enterprise   | Freemium    | No          | Yes         | Hunyuan, DeepSeek              | Tencent Cloud ecosystem                |
+| CodeMaker AI   | Tooling      | Paid        | No          | No          | Proprietary                    | Automated documentation                |
+| Continue       | Extension    | Free (BYOK) | Yes         | Yes         | Any (configurable)             | Customizable open-source assistant     |
+| Cortex Code    | Enterprise   | Paid        | No          | Yes         | Snowflake Cortex AI            | Native data engineering context        |
+| Crush          | CLI          | Free (BYOK) | Yes         | Yes         | Multi-model                    | Charm ecosystem and LSP integration    |
+| Devin          | CLI          | Freemium    | No          | No          | Claude, GPT-5, SWE-1           | Local-to-cloud handoff                 |
+| Droid          | CLI          | Freemium    | No          | No          | Anthropic, OpenAI              | Number one on Terminal-Bench           |
+| ForgeCode      | CLI          | Free (BYOK) | Yes         | Yes         | 300+ models                    | Custom agent definitions               |
+| Goose          | CLI          | Free (BYOK) | Yes         | Yes         | 25+ providers                  | 70+ MCP extensions                     |
+| Hermes Agent   | Agent        | Free (BYOK) | Yes         | Yes         | 200+ via OpenRouter            | Self-improving with skill learning     |
+| IBM Bob        | Enterprise   | Paid        | No          | No          | Claude, Mistral, Granite       | Full SDLC with role-based agents       |
+| iFlow CLI      | CLI          | Free        | Yes         | Yes         | Kimi K2, Qwen3, DeepSeek       | Free Chinese AI model access           |
+| Junie          | CLI          | Freemium    | Yes         | Yes         | OpenAI, Anthropic, Google, xAI | JetBrains IDE integration              |
+| Kilo Code      | Extension    | Free (BYOK) | Yes         | Yes         | 500+ models                    | Built-in MCP marketplace               |
+| Kiro           | IDE          | Freemium    | No          | Yes         | Claude, Qwen3, DeepSeek        | Spec-driven development with hooks     |
+| Kode           | CLI          | Free (BYOK) | Yes         | Yes         | Multi-model                    | Expert model consultation via @ask     |
+| MCPJam         | Tooling      | Free        | Yes         | Yes         | Any                            | MCP server testing and evals           |
+| Mistral Vibe   | CLI          | Free (BYOK) | Yes         | Yes         | Devstral                       | Mistral's official coding agent        |
+| Mux            | Orchestrator | Free        | Yes         | No          | Claude, GPT-5, Grok            | Isolated parallel workspaces           |
+| Neovate        | CLI          | Free (BYOK) | Yes         | Yes         | 400+ models                    | Multimodal image input                 |
+| OpenClaw       | Agent        | Free (BYOK) | Yes         | Yes         | 50+ integrations               | Multi-platform messaging               |
+| OpenHands      | Agent        | Free (BYOK) | Yes         | No          | Claude, Gemini, GPT, Devstral  | Full autonomous software engineer      |
+| Pi             | CLI          | Free (BYOK) | Yes         | Via adapter | 20+ providers                  | Self-extensible minimal harness        |
+| Pochi          | Extension    | Freemium    | Yes         | Yes         | Custom + cloud models          | TabbyML with GitHub integration        |
+| Qoder          | IDE          | Freemium    | No          | Yes         | Qwen, GPT-4o, Claude           | Async Quest Mode                       |
+| Qwen Code      | CLI          | Free (BYOK) | Yes         | No          | Qwen3-Coder (480B)             | Alibaba's open-source models           |
+| Roo Code       | Extension    | Free (BYOK) | Yes         | Yes         | Multi-model                    | Customizable AI modes                  |
+| Rovo Dev       | CLI          | Paid        | No          | Yes         | Proprietary                    | Jira and Bitbucket integration         |
+| Tabnine        | CLI          | Paid        | No          | Yes         | GPT-4o, Claude, Llama, Mistral | Enterprise privacy with local models   |
+| Trae           | IDE          | Freemium    | No          | Yes         | Claude, GPT, DeepSeek          | ByteDance AI-native IDE                |
+| Trae CN        | IDE          | Free        | No          | Yes         | Doubao, DeepSeek               | SOLO mode for Chinese developers       |
+| Windsurf       | IDE          | Freemium    | No          | Yes         | Claude, GPT, Codeium           | Cascade deep codebase understanding    |
+| Zencoder       | Extension    | Freemium    | No          | Yes         | Multi-model + BYOK             | Unifies Codex, Claude Code, Gemini CLI |
 
 ## Resources
 
