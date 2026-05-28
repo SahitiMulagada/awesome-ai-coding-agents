@@ -19,6 +19,7 @@
 - [IDE Extensions](#ide-extensions)
 - [IDEs & Code Editors](#ides--code-editors)
 - [IDE Comparison](#ide-comparison)
+- [Visual AI Builders](#visual-ai-builders)
 - [Enterprise Platforms](#enterprise-platforms)
 - [Multi-Agent Orchestrators](#multi-agent-orchestrators)
 - [General-Purpose AI Agents](#general-purpose-ai-agents)
@@ -104,6 +105,24 @@ Full development environments and code editors with AI capabilities.
 | Xcode          | Native IDE         | Free     | No          | No          | Yes         | Apple platform integration          |
 | Zed            | Code editor        | Free     | Yes         | Yes         | Yes         | Rust-native performance             |
 
+## Visual AI Builders
+
+AI-powered platforms that generate full-stack applications from natural language prompts with visual editing.
+
+- [Bolt.new](https://bolt.new/) - In-browser AI agent by StackBlitz that builds and deploys full-stack web apps using WebContainers.
+- [Bubble](https://bubble.io/) - Mature no-code platform for full-stack web and mobile apps with AI-assisted generation and a plugin ecosystem.
+- [Create](https://www.create.xyz/) - AI app builder that turns prompts into web and mobile apps with backend, auth, and database built in.
+- [Dora AI](https://www.dora.run/) - AI website builder specializing in 3D animated, visually immersive websites with scroll-driven interactions.
+- [Figma Make](https://www.figma.com/make/) - Figma's AI builder that generates multi-screen prototypes from natural language within the design ecosystem.
+- [FlutterFlow](https://www.flutterflow.io/) - Low-code AI builder for native iOS and Android apps using Flutter with visual drag-and-drop editing.
+- [Framer](https://www.framer.com/) - Design-focused website builder with AI wireframing, animations, and responsive layout generation from prompts.
+- [Lovable](https://lovable.dev/) - AI app builder that turns prompts into full-stack web applications with Supabase backend and two-way GitHub sync.
+- [Readdy](https://readdy.ai/) - AI website builder that generates multi-page sites from prompts, screenshots, or URLs with a built-in visitor chatbot.
+- [Softgen](https://softgen.ai/) - Affordable AI app builder generating full-stack apps with Stripe payments, Firebase auth, and GitHub sync.
+- [Tempo](https://www.tempo.new/) - Planning-first AI React builder where agents create user flow diagrams before generating code.
+- [v0](https://v0.dev/) - Vercel's AI generator for production-quality React and Next.js components with one-click deployment.
+- [Webflow](https://webflow.com/) - Professional visual website builder with AI page generation, CMS, e-commerce, and an official MCP server.
+
 ## Enterprise Platforms
 
 AI coding platforms designed for team and organization-wide deployment.
@@ -165,6 +184,8 @@ Frameworks, plugins, custom commands, and tools that extend Claude Code's capabi
 | AdaL             | CLI          | Free (BYOK) | Yes         | Yes         | Claude, GPT, Gemini, GLM       | Self-evolving agent                    |
 | AiderDesk        | CLI          | Free (BYOK) | Yes         | Yes         | 25+ providers                  | Git worktree isolation                 |
 | Augment          | Enterprise   | Paid        | No          | Yes         | Claude, GPT, Gemini            | Multi-model Prism routing              |
+| Bolt.new         | Builder      | Freemium    | Partial     | No          | Multi-model                    | In-browser WebContainers               |
+| Bubble           | Builder      | Freemium    | No          | Community   | Proprietary                    | Most mature no-code ecosystem          |
 | Claude Code      | CLI          | Freemium    | Yes         | Yes         | Claude                         | Deep codebase reasoning                |
 | Cline            | Extension    | Free (BYOK) | Yes         | Yes         | Multi-model                    | Plan/Act workflow with browser         |
 | CodeArts Agent   | Enterprise   | Freemium    | No          | Yes         | Zhipu, DeepSeek, Pangu         | Huawei Cloud and HarmonyOS integration |
@@ -172,12 +193,17 @@ Frameworks, plugins, custom commands, and tools that extend Claude Code's capabi
 | CodeMaker AI     | Tooling      | Paid        | No          | No          | Proprietary                    | Automated documentation                |
 | Continue         | Extension    | Free (BYOK) | Yes         | Yes         | Any (configurable)             | Customizable open-source assistant     |
 | Cortex Code      | Enterprise   | Paid        | No          | Yes         | Snowflake Cortex AI            | Native data engineering context        |
+| Create           | Builder      | Freemium    | No          | No          | Proprietary                    | Web and mobile from one platform       |
 | Crush            | CLI          | Free (BYOK) | Yes         | Yes         | Multi-model                    | Charm ecosystem and LSP integration    |
 | Cursor           | IDE          | Freemium    | No          | Yes         | Claude, GPT, Custom            | Multi-file agentic Composer            |
 | Devin            | CLI          | Freemium    | No          | No          | Claude, GPT-5, SWE-1           | Local-to-cloud handoff                 |
+| Dora AI          | Builder      | Freemium    | No          | No          | Proprietary                    | 3D animated immersive sites            |
 | Droid            | CLI          | Freemium    | No          | No          | Anthropic, OpenAI              | Number one on Terminal-Bench           |
 | Emacs            | IDE          | Free        | Yes         | Via plugins | N/A (plugin-based)             | Extensible AI plugin ecosystem         |
+| Figma Make       | Builder      | Freemium    | No          | Yes         | Proprietary                    | Figma design ecosystem                 |
+| FlutterFlow      | Builder      | Freemium    | No          | Yes         | Proprietary                    | Native mobile via Flutter              |
 | ForgeCode        | CLI          | Free (BYOK) | Yes         | Yes         | 300+ models                    | Custom agent definitions               |
+| Framer           | Builder      | Freemium    | No          | Community   | Proprietary                    | Design-first animations                |
 | Goose            | CLI          | Free (BYOK) | Yes         | Yes         | 25+ providers                  | 70+ MCP extensions                     |
 | Hermes Agent     | Agent        | Free (BYOK) | Yes         | Yes         | 200+ via OpenRouter            | Self-improving with skill learning     |
 | IBM Bob          | Enterprise   | Paid        | No          | No          | Claude, Mistral, Granite       | Full SDLC with role-based agents       |
@@ -188,6 +214,7 @@ Frameworks, plugins, custom commands, and tools that extend Claude Code's capabi
 | Kilo Code        | Extension    | Free (BYOK) | Yes         | Yes         | 500+ models                    | Built-in MCP marketplace               |
 | Kiro             | IDE          | Freemium    | No          | Yes         | Claude, Qwen3, DeepSeek        | Spec-driven development with hooks     |
 | Kode             | CLI          | Free (BYOK) | Yes         | Yes         | Multi-model                    | Expert model consultation via @ask     |
+| Lovable          | Builder      | Freemium    | No          | Yes         | Multi-model                    | Two-way GitHub sync                    |
 | MCPJam           | Tooling      | Free        | Yes         | Yes         | Any                            | MCP server testing and evals           |
 | Mistral Vibe     | CLI          | Free (BYOK) | Yes         | Yes         | Devstral                       | Mistral's official coding agent        |
 | Mux              | Orchestrator | Free        | Yes         | No          | Claude, GPT-5, Grok            | Isolated parallel workspaces           |
@@ -200,16 +227,21 @@ Frameworks, plugins, custom commands, and tools that extend Claude Code's capabi
 | Pochi            | Extension    | Freemium    | Yes         | Yes         | Custom + cloud models          | TabbyML with GitHub integration        |
 | Qoder            | IDE          | Freemium    | No          | Yes         | Qwen, GPT-4o, Claude           | Async Quest Mode                       |
 | Qwen Code        | CLI          | Free (BYOK) | Yes         | No          | Qwen3-Coder (480B)             | Alibaba's open-source models           |
+| Readdy           | Builder      | Freemium    | No          | No          | Proprietary                    | Built-in visitor chatbot               |
 | Replit           | IDE          | Freemium    | No          | Yes         | Proprietary                    | Full-stack app generation from NL      |
 | Roo Code         | Extension    | Free (BYOK) | Yes         | Yes         | Multi-model                    | Customizable AI modes                  |
 | Rovo Dev         | CLI          | Paid        | No          | Yes         | Proprietary                    | Jira and Bitbucket integration         |
+| Softgen          | Builder      | Paid        | No          | No          | Proprietary                    | $33/year pricing                       |
 | Sourcegraph Cody | Extension    | Freemium    | Partial     | Yes         | Claude, GPT, Gemini            | Multi-repo code graph intelligence     |
 | Supermaven       | Extension    | Freemium    | No          | No          | Proprietary                    | 1M token context sub-250ms speed       |
 | Tabnine          | CLI          | Paid        | No          | Yes         | GPT-4o, Claude, Llama, Mistral | Enterprise privacy with local models   |
+| Tempo            | Builder      | Freemium    | No          | Yes         | Multi-model                    | Planning-first with flow diagrams      |
 | Trae             | IDE          | Freemium    | No          | Yes         | Claude, GPT, DeepSeek          | ByteDance AI-native IDE                |
 | Trae CN          | IDE          | Free        | No          | Yes         | Doubao, DeepSeek               | SOLO mode for Chinese developers       |
+| v0               | Builder      | Freemium    | No          | Yes         | Proprietary                    | React/Next.js with Vercel deploy       |
 | Visual Studio    | IDE          | Freemium    | No          | Yes         | Copilot (GPT, Claude)          | Deep .NET and C++ integration          |
 | VS Code          | IDE          | Free        | Yes         | Yes         | Copilot (multi-model)          | Largest extension ecosystem            |
+| Webflow          | Builder      | Freemium    | No          | Yes         | Proprietary                    | Enterprise CMS and e-commerce          |
 | Windsurf         | IDE          | Freemium    | No          | Yes         | Claude, GPT, Codeium           | Cascade deep codebase understanding    |
 | Xcode            | IDE          | Free        | No          | No          | Apple Intelligence             | Apple platform integration             |
 | Zed              | IDE          | Free        | Yes         | Yes         | Claude, GPT, Gemini, Ollama    | Rust-native performance                |
