@@ -186,3 +186,5 @@ Frameworks, plugins, custom commands, and tools that extend Claude Code's capabi
 ## Contributing
 
 [Contributions welcome!](contributing.md) Read the contribution guidelines first.
+
+Want to add a tool, fix a link, or improve a description? PRs are open to everyone. See the [contribution guide](contributing.md) to get started.
