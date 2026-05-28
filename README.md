@@ -101,10 +101,20 @@ Tools that enhance the AI coding agent ecosystem.
 
 ## Claude Code Addons
 
-Frameworks, custom commands, and prompt libraries that extend Claude Code's capabilities.
+Frameworks, plugins, custom commands, and tools that extend Claude Code's capabilities.
 
+- [Awesome Claude Code](https://github.com/jqueryscript/awesome-claude-code) - Curated list of tools, IDE integrations, frameworks, and resources for Claude Code.
+- [Awesome Claude Code Plugins](https://github.com/ccplugins/awesome-claude-code-plugins) - Curated list of slash commands, subagents, MCP servers, and hooks for Claude Code.
+- [Awesome Claude Plugins](https://github.com/ComposioHQ/awesome-claude-plugins) - Curated list of plugins that extend Claude Code with custom commands, agents, and hooks.
 - [BMAD-AT-CLAUDE](https://github.com/24601/BMAD-AT-CLAUDE) - Full-stack AI agent framework for Claude Code with structured methodology and agent personas.
+- [Claude Code Guide](https://github.com/Cranot/claude-code-guide) - Comprehensive auto-updated guide documenting Claude Code CLI features, tools, and workflows.
+- [Claude Code System Prompts](https://github.com/Piebald-AI/claude-code-system-prompts) - Documented collection of all Claude Code system prompt parts, tool descriptions, and sub-agent prompts.
+- [Claude Context](https://github.com/zilliztech/claude-context) - Code search MCP server that makes your entire codebase available as context for Claude Code.
+- [Claude MPM](https://github.com/bobmatnyc/claude-mpm) - Multi-agent project manager framework with 47+ specialized agents and session management.
+- [Context Mode](https://github.com/mksglu/context-mode) - Context window optimization plugin achieving 98% reduction in context consumption across 15 platforms.
+- [ContextGraph](https://github.com/contextgraph/claude-code-plugin) - AI-forward persistent task management plugin for Claude Code.
 - [Superpowers](https://github.com/obra/superpowers) - Collection of custom slash commands and extensions that enhance Claude Code workflows.
+- [Taskmaster](https://github.com/eyaltoledano/claude-task-master) - AI-powered task management system with MCP integration for structuring development workflows.
 
 ## Comparison
 
