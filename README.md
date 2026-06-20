@@ -151,6 +151,7 @@ Versatile AI agents with strong software engineering capabilities among broader 
 
 Tools that enhance the AI coding agent ecosystem.
 
+- [ax](https://github.com/Necmttn/ax) - Local telemetry for AI coding agents.
 - [CodeMaker AI](https://codemaker.ai/) - Automated code generation and documentation tool for IDEs, CLI, and CI/CD workflows.
 - [MCPJam](https://mcpjam.com/) - Testing and evaluation platform for debugging, inspecting, and running evals on MCP servers.
 
@@ -184,6 +185,7 @@ Frameworks, plugins, custom commands, and tools that extend Claude Code's capabi
 | AdaL             | CLI          | Free (BYOK) | Yes         | Yes         | Claude, GPT, Gemini, GLM       | Self-evolving agent                    |
 | AiderDesk        | CLI          | Free (BYOK) | Yes         | Yes         | 25+ providers                  | Git worktree isolation                 |
 | Augment          | Enterprise   | Paid        | No          | Yes         | Claude, GPT, Gemini            | Multi-model Prism routing              |
+| ax               | Tooling      | Free        | Yes         | Yes         | N/A                            | Session telemetry and recall           |
 | Bolt.new         | Builder      | Freemium    | Partial     | No          | Multi-model                    | In-browser WebContainers               |
 | Bubble           | Builder      | Freemium    | No          | Community   | Proprietary                    | Most mature no-code ecosystem          |
 | Claude Code      | CLI          | Freemium    | Yes         | Yes         | Claude                         | Deep codebase reasoning                |
