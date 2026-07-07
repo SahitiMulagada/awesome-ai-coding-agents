@@ -153,6 +153,7 @@ Tools that enhance the AI coding agent ecosystem.
 
 - [CodeMaker AI](https://codemaker.ai/) - Automated code generation and documentation tool for IDEs, CLI, and CI/CD workflows.
 - [MCPJam](https://mcpjam.com/) - Testing and evaluation platform for debugging, inspecting, and running evals on MCP servers.
+- [Tree Ring Memory](https://github.com/TerminallyLazy/Tree-Ring-Memory) - Local-first memory lifecycle framework for AI coding agents with recall, audit, forgetting, and source-linked evidence.
 
 ## Claude Code Addons
 
@@ -238,6 +239,7 @@ Frameworks, plugins, custom commands, and tools that extend Claude Code's capabi
 | Tempo            | Builder      | Freemium    | No          | Yes         | Multi-model                    | Planning-first with flow diagrams      |
 | Trae             | IDE          | Freemium    | No          | Yes         | Claude, GPT, DeepSeek          | ByteDance AI-native IDE                |
 | Trae CN          | IDE          | Free        | No          | Yes         | Doubao, DeepSeek               | SOLO mode for Chinese developers       |
+| Tree Ring Memory | Tooling      | Free        | Yes         | No          | Any                            | Local-first memory lifecycle           |
 | v0               | Builder      | Freemium    | No          | Yes         | Proprietary                    | React/Next.js with Vercel deploy       |
 | Visual Studio    | IDE          | Freemium    | No          | Yes         | Copilot (GPT, Claude)          | Deep .NET and C++ integration          |
 | VS Code          | IDE          | Free        | Yes         | Yes         | Copilot (multi-model)          | Largest extension ecosystem            |
