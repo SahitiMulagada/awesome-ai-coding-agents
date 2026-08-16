@@ -151,6 +151,7 @@ Versatile AI agents with strong software engineering capabilities among broader 
 
 Tools that enhance the AI coding agent ecosystem.
 
+- [Agent QA](https://github.com/vostride/agent-qa) - Source-available QA agent for natural-language web and mobile regression tests with CLI, MCP, and coding-agent skills. `Free`
 - [CodeMaker AI](https://codemaker.ai/) - Automated code generation and documentation tool for IDEs, CLI, and CI/CD workflows.
 - [MCPJam](https://mcpjam.com/) - Testing and evaluation platform for debugging, inspecting, and running evals on MCP servers.
 
