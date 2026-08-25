@@ -153,6 +153,8 @@ Tools that enhance the AI coding agent ecosystem.
 
 - [CodeMaker AI](https://codemaker.ai/) - Automated code generation and documentation tool for IDEs, CLI, and CI/CD workflows.
 - [MCPJam](https://mcpjam.com/) - Testing and evaluation platform for debugging, inspecting, and running evals on MCP servers.
+- [Mneme](https://github.com/MnemeHQ/mneme) - Architectural drift prevention for the agentic AI SDLC; deterministic guardrails that enforce repository architecture across AI coding agents (Claude Code, Cursor, Codex CLI, Antigravity).
+
 
 ## Claude Code Addons
 
