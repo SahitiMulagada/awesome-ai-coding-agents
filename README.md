@@ -54,6 +54,7 @@ Terminal-based coding agents that work directly from your command line.
 
 AI coding agents that plug into your existing code editor.
 
+- [AICode](https://ai-code.ai/) - Specification-first VS Code coding agent with mandatory human review before code generation and MCP integration.
 - [Cline](https://cline.bot/) - Open-source autonomous AI coding agent with Plan/Act workflow and browser automation.
 - [Continue](https://continue.dev/) - Open-source AI code assistant for VS Code and JetBrains with customizable model support and MCP integration.
 - [Kilo Code](https://kilo.ai/) - Open-source AI coding agent for VS Code and JetBrains with 500+ model support and inline autocomplete.
@@ -182,6 +183,7 @@ Frameworks, plugins, custom commands, and tools that extend Claude Code's capabi
 | Tool             | Type         | Pricing     | Open Source | MCP Support | LLM Support                    | Key Differentiator                     |
 | ---------------- | ------------ | ----------- | ----------- | ----------- | ------------------------------ | -------------------------------------- |
 | AdaL             | CLI          | Free (BYOK) | Yes         | Yes         | Claude, GPT, Gemini, GLM       | Self-evolving agent                    |
+| AICode           | Extension    | Freemium (BYOK) | No          | Yes         | Azure, OpenAI                   | Human validation before code generation |
 | AiderDesk        | CLI          | Free (BYOK) | Yes         | Yes         | 25+ providers                  | Git worktree isolation                 |
 | Augment          | Enterprise   | Paid        | No          | Yes         | Claude, GPT, Gemini            | Multi-model Prism routing              |
 | Bolt.new         | Builder      | Freemium    | Partial     | No          | Multi-model                    | In-browser WebContainers               |
