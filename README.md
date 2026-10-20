@@ -137,6 +137,7 @@ AI coding platforms designed for team and organization-wide deployment.
 
 Frameworks for coordinating multiple AI agents working together on development tasks.
 
+- [FlowDeck Studio](https://flowdeck.studio/) - Native macOS workspace that runs Claude Code, Codex and Cursor agents in parallel on iOS and macOS projects, each with its own Git worktree and simulator. `Paid`
 - [Mux](https://github.com/coder/mux) - Open-source desktop app by Coder for running multiple coding agents in parallel with isolated workspaces.
 
 ## General-Purpose AI Agents
