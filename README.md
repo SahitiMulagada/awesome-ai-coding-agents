@@ -109,6 +109,7 @@ Full development environments and code editors with AI capabilities.
 
 AI-powered platforms that generate full-stack applications from natural language prompts with visual editing.
 
+- [AppWizzy](https://appwizzy.com/) - AI web app builder with dedicated cloud development VMs, runtime templates, and Git-backed source editing. `Freemium`
 - [Bolt.new](https://bolt.new/) - In-browser AI agent by StackBlitz that builds and deploys full-stack web apps using WebContainers.
 - [Bubble](https://bubble.io/) - Mature no-code platform for full-stack web and mobile apps with AI-assisted generation and a plugin ecosystem.
 - [Create](https://www.create.xyz/) - AI app builder that turns prompts into web and mobile apps with backend, auth, and database built in.
