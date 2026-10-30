@@ -158,6 +158,7 @@ Tools that enhance the AI coding agent ecosystem.
 
 Frameworks, plugins, custom commands, and tools that extend Claude Code's capabilities.
 
+- [AutoMode](https://github.com/mralexivy/AutoMode) - Claude Code mod that picks the model and effort for each prompt and requires an Opus review for risky changes. `Open Source` `Free`
 - [Awesome Claude Code](https://github.com/jqueryscript/awesome-claude-code) - Curated list of tools, IDE integrations, frameworks, and resources for Claude Code.
 - [Awesome Claude Code Plugins](https://github.com/ccplugins/awesome-claude-code-plugins) - Curated list of slash commands, subagents, MCP servers, and hooks for Claude Code.
 - [Awesome Claude Code Toolkit](https://github.com/rohitg00/awesome-claude-code-toolkit) - Comprehensive toolkit collection with 135 agents, 35 skills, 42 commands, and 176+ plugins.
