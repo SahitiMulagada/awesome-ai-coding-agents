@@ -137,6 +137,7 @@ AI coding platforms designed for team and organization-wide deployment.
 
 Frameworks for coordinating multiple AI agents working together on development tasks.
 
+- [Althar](https://github.com/AltharIDE/althar) - Open-source desktop ADE that turns requests into tasks and assigns coding agents to implementation and review.
 - [Mux](https://github.com/coder/mux) - Open-source desktop app by Coder for running multiple coding agents in parallel with isolated workspaces.
 
 ## General-Purpose AI Agents
